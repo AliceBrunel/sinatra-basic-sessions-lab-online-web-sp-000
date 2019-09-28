@@ -16,6 +16,7 @@ class App < Sinatra::Base
     
     @item = params[:item]
     
+    erb :checkout
   end
   
 end
